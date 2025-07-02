@@ -15,20 +15,26 @@ Before starting the application, make sure to update the allowed hosts:
    ALLOWED_HOSTS = ['127.0.0.1', 'your.host.ip.here']
 
 
-# Clone the repository
+# Docker Commands
+**Clone the repository**
 git clone https://github.com/sujon99/django-crm.git
 
-# Navigate to the project directory
-cd django-crm
+**Navigate to the project directory**
+```python
+   cd django-crm
 
-# Build the Docker containers
-docker-compose build
+**Build the Docker containers**
+```python
+   docker-compose build
 
-# Run the containers in detached mode
-docker-compose up -d
+**Run the containers in detached mode**
+```python
+   docker-compose up -d
 
-# View container logs
-docker-compose logs -f
+**View container logs**
+```python
+   docker-compose logs -f
 
-# Stop and remove containers
-docker-compose down
+**Stop and remove containers**
+```python
+   docker-compose down
